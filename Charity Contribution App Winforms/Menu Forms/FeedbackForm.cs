@@ -29,7 +29,7 @@ namespace Charity_Contribution_App_Winforms
         {
             string feedback = txtFeedback.Text;
             //MessageBox.Show(feedback);
-            MessageBox.Show("Thank you for providing feedback, we will review it as soon as possible. Kind Regards");
+            MessageBox.Show("Thank you for your feedback. It will be processed indefinetly.");
             mainPage.ShowMainForm();
             this.Close();
         }
