@@ -42,7 +42,9 @@ namespace Charity_Contribution_App_Winforms
             if (decimal.TryParse(txtDonationAmount.Text, out decimal amount))
             {
                 DonationProcessing.Donation(selectedCharity, amount, _currentUser);
+           
                 mainPage.ShowMainForm();
+                mainPage.Refresh();
                 this.Close();
             }
             else
@@ -54,6 +56,7 @@ namespace Charity_Contribution_App_Winforms
         private void btnCancel_Click(object sender, EventArgs e)
         {
             mainPage.ShowMainForm();
+            mainPage.Refresh();
             this.Close();
         }
 
@@ -66,7 +69,9 @@ namespace Charity_Contribution_App_Winforms
                 User.LoadUserData();
                 MessageBox.Show($"Successfully added {additionalFunds:C} to your wallet.");
                 UpdateUserWalletDisplay();
+
                 mainPage.ShowMainForm();
+                mainPage.Refresh();
                 this.Close();
             }
             else

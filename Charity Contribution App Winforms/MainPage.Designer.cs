@@ -156,7 +156,7 @@ namespace Charity_Contribution_App_Winforms
             this.lblUserName.Padding = new System.Windows.Forms.Padding(10);
             this.lblUserName.Size = new System.Drawing.Size(200, 47);
             this.lblUserName.TabIndex = 0;
-            this.lblUserName.Text = $"Logged in as: user";
+            this.lblUserName.Text = "Logged in as: user";
             this.lblUserName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblWalletBalance
@@ -168,7 +168,7 @@ namespace Charity_Contribution_App_Winforms
             this.lblWalletBalance.Padding = new System.Windows.Forms.Padding(10);
             this.lblWalletBalance.Size = new System.Drawing.Size(200, 46);
             this.lblWalletBalance.TabIndex = 1;
-            this.lblWalletBalance.Text = $"Wallet Balance: 0.00";
+            this.lblWalletBalance.Text = "Wallet Balance: 0.00";
             this.lblWalletBalance.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnViewAllCharities

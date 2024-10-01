@@ -51,7 +51,7 @@
       "CharityType": "Education",
       "Name": "Teach For All",
       "Description": "Network of organizations aiming to expand educational opportunity.",
-      "TotalDonations": 6500.00,
+      "TotalDonations": 7050.00,
       "Feedback": {
         "$id": "12",
         "$values": []
@@ -96,7 +96,7 @@
       "CharityType": "Education",
       "Name": "The Education Trust",
       "Description": "Advocates for the high academic achievement of all students.",
-      "TotalDonations": 6800.00,
+      "TotalDonations": 7200.00,
       "Feedback": {
         "$id": "21",
         "$values": []
